@@ -1,0 +1,10 @@
+server.port: 8089
+spring:
+    kafka:
+        bootstrap-servers: hadoop01:9092
+        consumer:
+            group-id: test_group_id_01
+            auto-offset-reset: latest
+        topic:
+            kafkaTopic_1: kafkatopic_1
+            kafkaTopic_2: kafkatopic_1
