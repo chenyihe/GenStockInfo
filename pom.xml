@@ -51,7 +51,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib</classpathPrefix>
-                            <!-- 程序启动入口 -->
+                            <!-- 程序启动入口类名字 -->
                             <mainClass>spring.KafkaSpringbootApplication</mainClass>
                         </manifest>
                     </archive>
@@ -71,6 +71,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
