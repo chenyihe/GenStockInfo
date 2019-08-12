@@ -39,6 +39,7 @@ public class KafkaConsumerConfig {
     }
 
 
+    /*创建consumer监听容器,可以设置并发量等属性*/
     @Bean
     public ConcurrentKafkaListenerContainerFactory kafkaListenerFactory(){
         ConcurrentKafkaListenerContainerFactory factory = new ConcurrentKafkaListenerContainerFactory();
